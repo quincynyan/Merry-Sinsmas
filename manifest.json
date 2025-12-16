@@ -1,0 +1,57 @@
+{
+	"name": "Merry Sinsmas",
+	"description": "A Helluva Boss themed Christmas makeover for your browser.",
+	"developer": {
+		"name": "QuincyNyan"
+	},
+	"icons": {
+		"512": "icon_512.png"
+	},
+	"manifest_version": 3,
+	"mod": {
+		"license": "license.txt",
+		"payload": {
+			"background_music": ["music/track_1.mp3"],
+			"theme": {
+				"dark": {
+					"gx_accent": {
+						"h": 348,
+						"s": 83,
+						"l": 47
+					},
+					"gx_secondary_base": {
+						"h": 4,
+						"s": 90,
+						"l": 16
+					}
+				},
+				"light": {
+					"gx_accent": {
+						"h": 9,
+						"s": 78,
+						"l": 63
+					},
+					"gx_secondary_base": {
+						"h": 339,
+						"s": 100,
+						"l": 16
+					}
+				}
+			},
+			"wallpaper": {
+				"dark": {
+					"image": "wallpaper/dark.jpg",
+					"text_color": "#FFFFFF",
+					"text_shadow": "#757575"
+				},
+				"light": {
+					"image": "wallpaper/light.jpg",
+					"text_color": "#000000",
+					"text_shadow": "#B3B3B3"
+				}
+			}
+		},
+		"schema_version": 1
+	},
+	"version": "1.0.1"
+}
